@@ -51,6 +51,7 @@ var (
 	ErrBlockedByPeer       = NewCodeError(BlockedByPeer, "BlockedByPeer")
 	ErrNotPeersFriend      = NewCodeError(NotPeersFriend, "NotPeersFriend")
 	ErrRelationshipAlready = NewCodeError(RelationshipAlreadyError, "RelationshipAlreadyError")
+	ErrForbiddenAddFriend  = NewCodeError(ForbiddenAddFriendError, "ForbiddenAddFriendError")
 
 	ErrMutedInGroup     = NewCodeError(MutedInGroup, "MutedInGroup")
 	ErrMutedGroup       = NewCodeError(MutedGroup, "MutedGroup")
