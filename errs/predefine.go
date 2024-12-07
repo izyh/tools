@@ -29,11 +29,12 @@ var (
 
 	ErrRecordNotFound = NewCodeError(RecordNotFoundError, "RecordNotFoundError")
 
-	ErrNotInGroupYet       = NewCodeError(NotInGroupYetError, "NotInGroupYetError")
-	ErrDismissedAlready    = NewCodeError(DismissedAlreadyError, "DismissedAlreadyError")
-	ErrRegisteredAlready   = NewCodeError(RegisteredAlreadyError, "RegisteredAlreadyError")
-	ErrGroupTypeNotSupport = NewCodeError(GroupTypeNotSupport, "")
-	ErrGroupRequestHandled = NewCodeError(GroupRequestHandled, "GroupRequestHandled")
+	ErrNotInGroupYet        = NewCodeError(NotInGroupYetError, "NotInGroupYetError")
+	ErrDismissedAlready     = NewCodeError(DismissedAlreadyError, "DismissedAlreadyError")
+	ErrRegisteredAlready    = NewCodeError(RegisteredAlreadyError, "RegisteredAlreadyError")
+	ErrGroupTypeNotSupport  = NewCodeError(GroupTypeNotSupport, "")
+	ErrGroupRequestHandled  = NewCodeError(GroupRequestHandled, "GroupRequestHandled")
+	ErrForbiddenCreateGroup = NewCodeError(ForbiddenCreateGroupError, "ForbiddenCreateGroupError")
 
 	ErrData             = NewCodeError(DataError, "DataError")
 	ErrTokenExpired     = NewCodeError(TokenExpiredError, "TokenExpiredError")

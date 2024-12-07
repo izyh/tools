@@ -55,12 +55,13 @@ const (
 	RegisteredAlreadyError = 1102 // 用户已经注册过了
 
 	// 群组错误码.
-	GroupIDNotFoundError  = 1201 // GroupID不存在
-	GroupIDExisted        = 1202 // GroupID已存在
-	NotInGroupYetError    = 1203 // 不在群组中
-	DismissedAlreadyError = 1204 // 群组已经解散
-	GroupTypeNotSupport   = 1205
-	GroupRequestHandled   = 1206
+	GroupIDNotFoundError      = 1201 // GroupID不存在
+	GroupIDExisted            = 1202 // GroupID已存在
+	NotInGroupYetError        = 1203 // 不在群组中
+	DismissedAlreadyError     = 1204 // 群组已经解散
+	GroupTypeNotSupport       = 1205
+	GroupRequestHandled       = 1206
+	ForbiddenCreateGroupError = 1250 // 不允许创建群组
 
 	// 关系链错误码.
 	CanNotAddYourselfError   = 1301 // 不能添加自己为好友
