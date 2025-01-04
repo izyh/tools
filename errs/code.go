@@ -53,6 +53,7 @@ const (
 	// 账号错误码.
 	UserIDNotFoundError    = 1101 // UserID不存在 或未注册
 	RegisteredAlreadyError = 1102 // 用户已经注册过了
+	UserCanceledError      = 1150 // 用户已注销
 
 	// 群组错误码.
 	GroupIDNotFoundError      = 1201 // GroupID不存在

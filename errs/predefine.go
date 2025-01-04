@@ -32,6 +32,7 @@ var (
 	ErrNotInGroupYet        = NewCodeError(NotInGroupYetError, "NotInGroupYetError")
 	ErrDismissedAlready     = NewCodeError(DismissedAlreadyError, "DismissedAlreadyError")
 	ErrRegisteredAlready    = NewCodeError(RegisteredAlreadyError, "RegisteredAlreadyError")
+	ErrUserCanceled         = NewCodeError(UserCanceledError, "UserCanceledError")
 	ErrGroupTypeNotSupport  = NewCodeError(GroupTypeNotSupport, "")
 	ErrGroupRequestHandled  = NewCodeError(GroupRequestHandled, "GroupRequestHandled")
 	ErrForbiddenCreateGroup = NewCodeError(ForbiddenCreateGroupError, "ForbiddenCreateGroupError")
