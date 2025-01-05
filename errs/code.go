@@ -69,7 +69,8 @@ const (
 	BlockedByPeer            = 1302 // 被对方拉黑
 	NotPeersFriend           = 1303 // 不是对方的好友
 	RelationshipAlreadyError = 1304 // 已经是好友关系
-	ForbiddenAddFriendError  = 1350 // 不允许添加好友
+	ForbiddenAddFriendError  = 1350 // 管理后台不允许添加好友
+	NotAllowAddFriendError   = 1351 // 对方不允许添加好友
 
 	// 消息错误码.
 	MessageHasReadDisable = 1401
